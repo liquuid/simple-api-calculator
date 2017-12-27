@@ -1,0 +1,34 @@
+consumes:
+- application/json
+info:
+  title: API for sum numbers across internet
+  version: 0.1.0
+paths: {}
+produces:
+- application/json
+schemes:
+- http
+swagger: "2.0"
+definitions:
+  error:
+    type: object
+    required:
+      - message
+    properties:
+      code:
+        type: integer
+        format: int64
+      message:
+        type: string
+  okResp:
+    type: object
+    required:
+      - message
+    properties:
+      code:
+        type: integer
+        format: int64
+      message:
+        type: string
+
+
