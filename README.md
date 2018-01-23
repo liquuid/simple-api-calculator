@@ -1,4 +1,4 @@
-Go Swagger auto generate spec from source code exemple
+Go Swagger auto generate spec from source code example
 ======================================================
 
 A simple example of golang software with annotations to generate a functional specification for swagger 2.0. 
